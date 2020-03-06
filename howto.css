@@ -1,0 +1,57 @@
+body {
+  background-color: pink;
+  
+}
+.container {
+  background-color: gray;
+  width: 95%;
+  height: 800px;
+  padding: 15px;
+  border: 5px solid gray; 
+  border-radius: 8px;
+  margin: inherit;
+}
+
+.sidebar {
+  background-color: yellow;
+  height: 800px;
+  width: 100px;  
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.main {
+  background-color: pink;
+  height: 800px;
+  width: 1080px;  
+  border-radius: 8px;
+  display: inline-block;
+  margin: inherit;
+}
+
+
+
+.toolbar {
+  background-color: yellow;
+  height: 100px;
+  width: 1080px;  
+  border-radius: 8px;
+  margin-left: inherit;
+}
+
+li {
+  background: #00945f;
+  border-bottom: 1px solid #016e39;
+  clear: both;
+  height: 62px;
+  margin: 0;
+  padding: 0 30px 30px;
+  width: 50%;
+  display: inline;
+}
+
+ul#myRow li {
+  display: inline;
+  width: 500px;
+  float: left;
+}
